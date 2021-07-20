@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors({
     credentials: true,
     origin: 'https://mern-to-do-app.netlify.app',
-    allowedHeaders: ['Content-Type'],
+    allowedHeaders: ['Access-Control-Allow-Origin', 'Content-Type'],
 }));
 
 const tasksRoutes = require('./routes/tasks_routes');
