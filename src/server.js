@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000',
+    origin: 'https://mern-to-do-app.netlify.app',
     allowedHeaders: ['Content-Type'],
 }));
 
