@@ -1,23 +1,23 @@
 {
-	"name": "mern-todo-app-back",
-	"version": "1.0.0",
-	"description": "",
-	"main": "server.js",
-	"scripts": {
-		"start": "node src/server.js",
-		"dev": "nodemon --watch src src/server.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"cors": "^2.8.5",
-		"express": "^4.22.1",
-		"mongoose": "^6.13.9",
-		"morgan": "^1.10.0"
-	},
-	"devDependencies": {
-		"nodemon": "^2.0.22"
-	},
-	"packageManager": "pnpm@10.32.1"
+  "name": "mern-todo-app-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "mongoose": "^6.13.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "packageManager": "pnpm@11.3.0"
 }
