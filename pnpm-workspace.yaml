@@ -8,8 +8,14 @@ minimumReleaseAgeExclude:
   - fast-xml-parser@5.5.7
   - fast-xml-parser@5.7.0
   - qs@6.15.2
-  - morgan@1.10.2
+  - brace-expansion@1.1.16
+  - body-parser@1.20.6
+  - mongoose@6.13.10
+  - brace-expansion@5.0.8
 overrides:
+  body-parser@<1.20.6: ^1.20.6
+  brace-expansion@<1.1.16: ^1.1.16
+  brace-expansion@<=5.0.7: ^5.0.8
   fast-xml-parser@<5.7.0: ^5.7.0
   fast-xml-parser@>=5.0.0 <5.3.5: ^5.3.5
   fast-xml-parser@>=5.0.0 <5.3.6: ^5.3.6
@@ -17,6 +23,6 @@ overrides:
   fast-xml-parser@>=5.0.0 <5.5.6: ^5.5.6
   fast-xml-parser@>=5.0.0 <5.5.7: ^5.5.7
   fast-xml-parser@>=5.0.9 <=5.3.3: ^5.3.4
-  morgan@>=1.2.0 <=1.10.1: ^1.10.2
+  mongoose@<6.13.10: ^6.13.10
   qs@>=6.11.1 <=6.15.1: ^6.15.2
   semver@>=7.0.0 <7.5.2: ^7.5.2
